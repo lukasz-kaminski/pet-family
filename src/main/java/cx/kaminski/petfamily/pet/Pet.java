@@ -14,7 +14,7 @@ public class Pet {
     @GeneratedValue(strategy = IDENTITY)
     private Long id;
     private String name;
-    private String race;
+    private String breed;
     private Kind kind;
     private String image;
     @ManyToOne
