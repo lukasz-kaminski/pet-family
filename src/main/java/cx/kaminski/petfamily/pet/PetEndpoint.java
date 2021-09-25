@@ -1,11 +1,12 @@
 package cx.kaminski.petfamily.pet;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.context.annotation.Profile;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
-
+@Profile("local")
 @RestController
 @RequestMapping("/pets")
 @RequiredArgsConstructor
