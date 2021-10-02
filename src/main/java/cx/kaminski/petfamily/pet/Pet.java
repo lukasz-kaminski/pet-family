@@ -16,6 +16,7 @@ public class Pet {
     private String name;
     private String breed;
     private Kind kind;
+    @Lob
     private String image;
     @ManyToOne
     private Owner owner;
